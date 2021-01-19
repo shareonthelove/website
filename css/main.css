@@ -12,7 +12,7 @@
 	1. CSS Reset
 	2. Document Setup
 	3. Header Part
-		3.1 Menu Style
+	 3.1 Menu Style
 	4. About me Style
 	5. Skills Style
 	6. Experience Style
@@ -426,28 +426,28 @@ header{
 /*----------------------------------------------------
 	4. About me Style
 ------------------------------------------------------*/
-.aboutus{
+.aboutme{
 	background:#ffffff;
 	text-align:left;
 }
-.aboutus .container{
+.aboutme .container{
 	padding-top:80px ;
 	padding-bottom:47px ;
 }
-.aboutus img {
+.aboutme img {
 	padding:7px;
 	display:block;
 	border:1px solid #bab4bb;
 }
-.aboutus .heading p{
+.aboutme .heading p{
 	padding-bottom:41px;
 }
-.aboutus h4 {
+.aboutme h4 {
 	font-size:16px;
 	color:#5b4c5c;
 	padding-bottom:20px;
 }
-.aboutus .btn-primary {
+.aboutme .btn-primary {
 	border:2px solid #746c75;
 	background:none;
 	line-height:30px;
@@ -458,7 +458,7 @@ header{
 	font-weight:600;
 	border-radius: 0;
 }
-.aboutus .btn-primary:hover {
+.aboutme .btn-primary:hover {
 	color:#979497;
 }
 
@@ -586,31 +586,31 @@ header{
 
 
 /*----------------------------------------------------
-	 8. Protfolio Style
+	 8. Portfolio Style
 ------------------------------------------------------*/
-.protfolio{
+.portfolio{
 	background:#fff;
 	width:100%;
 	overflow:hidden;
 }
-.protfolio .container{
+.portfolio .container{
 	padding-top:67px ;
 	padding-bottom:0 ;
 }
-.protfolio .heading {
+.portfolio .heading {
 	padding-bottom:50px;
 }
-.protfolio .protBox{
+.portfolio .protBox{
 	padding-top:0 ;
 	padding-bottom:0 ;
 	position:relative;
 }
 
-.protfolio .heading p{
+.portfolio .heading p{
 	padding-bottom:41px;
 	color:#242424
 }
-.protfolio h4{
+.portfolio h4{
 	font-weight:700;
 }
 .portfolioFilter{
@@ -866,11 +866,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 /*----------------------------------------------------
-	9. Contact Style
+	9. Contact Style   f8f8f8
 ------------------------------------------------------*/
-
+a {
+  color: black;
+}
 .contact{
-	background:#f8f8f8;
+	background:#fff;
 }
 .contact .container{
 	padding-top:75px;
